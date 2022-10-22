@@ -1030,22 +1030,22 @@
                       JOIN NITJ
                     </div>
                     <ul class="flex flex-col gap-1 px-2 font-normal text-black">
-                      <li class="hover:font-semibold hover:text-[#FF6600]">
-                        <a href="./index.html"> B.Tech Admission</a>
-                      </li>
-                      <li class="hover:font-semibold hover:text-[#FF6600]">
-                        <a href="./mtech_ccmt.html"> M.Tech Admission</a>
-                      </li>
-                      <li class="hover:font-semibold hover:text-[#FF6600]">
-                       <a href="./msc.html"> Msc Admission </a>
-                      </li>
-                      <li class="hover:font-semibold hover:text-[#FF6600]">
-                        <a href="./mba.html"> MBA Admission </a>
-                      </li>
-                      <li class="hover:font-semibold hover:text-[#FF6600]">
-                      <a href="./phd.html">  Ph.D Admission </a>
-                      </li>
-                    </ul>
+                        <li class="hover:font-semibold hover:text-[#FF6600]">
+                          <a href="./index.html"> B.Tech Admission</a>
+                        </li>
+                        <li class="hover:font-semibold hover:text-[#FF6600]">
+                          <a href="./mtech_ccmt.html"> M.Tech Admission</a>
+                        </li>
+                        <li class="hover:font-semibold hover:text-[#FF6600]">
+                         <a href="./msc.html"> Msc Admission </a>
+                        </li>
+                        <li class="hover:font-semibold hover:text-[#FF6600]">
+                          <a href="./mba.html"> MBA Admission </a>
+                        </li>
+                        <li class="hover:font-semibold hover:text-[#FF6600]">
+                        <a href="./phd.html">  Ph.D Admission </a>
+                        </li>
+                      </ul>
                   </div>
                   <div id="block">
                     <div
@@ -1544,14 +1544,14 @@
             <li class="bg-blue-100 mb-1">
               <span class="text">B.Tech.</span>
             </li>
-            <li class="bg-blue-100 mb-1 active2">
+            <li class="bg-blue-100 mb-1">
               <span class="text">M.Tech. (CCMT)</span>
             </li>
             <li class="bg-blue-100 mb-1">
               <span class="text">M.Tech. (Self Sponsored)</span>
             </li>
 
-            <li class="bg-blue-100 mb-1">
+            <li class="bg-blue-100 mb-1 active2">
               <span class="text">M.Sc.</span>
             </li>
 
@@ -2210,7 +2210,7 @@
 
     <!--Mtech Programme (ccmt)-->
 
-    <div class="tab_wrap ml-[22%]" style="display: block" id="btech">
+    <div class="tab_wrap ml-[22%]" style="display: none" id="btech">
       <div class="font-semibold text-[40px] mb-[4%]">
         <span class="text-[#2776c0]">M.Tech(CCMT)</span> Programme
       </div>
@@ -3371,7 +3371,7 @@
     </div>
 
     <!--MSC -->
-    <div class="tab_wrap ml-[22%]" style="display: none" id="btech">
+    <div class="tab_wrap ml-[22%]" style="display: block" id="btech">
       <div class="font-semibold text-[40px] mb-[4%]">
         <span class="text-[#2776c0]">MSC</span> Programme
       </div>
@@ -5197,18 +5197,7 @@
     <div class="relative bottom-0">
       <script src="./footer.js"></script>
     </div>
-    <script>
-      window.addEventListener("scroll", () => {
-        const scrollable =
-          document.documentElement.scrollHeight - window.innerHeight;
-        const scrolled = window.scrollY;
-        console.log(scrollable);
-        console.log(scrolled);
-        if (Math.ceil(scrolled) >= scrollable - 500)
-          document.getElementById("sidetab").style.display = "none";
-        else document.getElementById("sidetab").style.display = "block";
-      });
-    </script>
+   
     <script src="./script.js"></script>
   </body>
 </html>
