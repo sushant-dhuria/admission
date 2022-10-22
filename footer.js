@@ -1,6 +1,6 @@
 document.write(`
 
-    <div class="flex flex-col justify-between bg-slate-800 text-white lg:flex-row lg:px-20 z-[100]" id="footer">
+    <div class="flex flex-col justify-between bg-slate-800 text-white lg:flex-row lg:px-20 z-[100] " id="footer">
     <div class="flex basis-1/3 flex-col border-y-gray-300 p-[25px] lg:border-r lg:border-zinc-400">
     <div class="flex flex-row items-center gap-x-[10px] pb-3">
         <img src="img/logo_250.png" alt="NITJ logo" class="h-[67px] w-[67px]" />
